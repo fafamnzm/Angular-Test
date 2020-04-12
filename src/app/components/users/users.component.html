@@ -8,7 +8,7 @@
     <tr *ngFor="let user of users" >
       <td>{{ user.id }}</td>
       <td>{{ user.username }}</td>
-      <td>{{ user.status }}</td>
+      <td>{{ user.status ? 'Active' : 'Deactive'}}</td>
     </tr>
   </table>
 </div>
